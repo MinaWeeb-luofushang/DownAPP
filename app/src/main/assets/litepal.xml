@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="SystemAllOrder"></dbname>   <!-- 数据库的名字 -->
+    <version value="2"></version>  <!-- 数据库的版本号 -->
+
+    <list>
+        <!-- 配置数据库中相应的表，暂时不写 -->
+        <mapping class="com.example.downapp.entity.UserInfo"/>
+        <mapping class="com.example.downapp.entity.UserOrder"/>
+        <mapping class="com.example.downapp.entity.RegisterType"/>
+    </list>
+</litepal>

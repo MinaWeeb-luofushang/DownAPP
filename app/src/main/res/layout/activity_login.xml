@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:src="@drawable/app_icon"
+        android:layout_width="160dp"
+        android:layout_height="60dp"/>
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:src="@drawable/uer_icon"
+        android:scaleType="centerInside"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_uer_id"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:maxLength="7"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:hint="账号"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <EditText
+        android:id="@+id/et_uer_pwd"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:maxLength="9"
+        android:layout_marginTop="10dp"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <TextView
+        android:onClick="tv_login"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:text="登录"
+        android:background="#4890F4"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:onClick="tv_register"
+        android:textSize="20sp"
+        android:textColor="#185CE1"
+        android:gravity="center"
+        android:text="-注册-"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
